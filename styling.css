@@ -1,0 +1,143 @@
+html{
+	height: 100%;
+	background: radial-gradient(circle,white,grey);
+}
+#container{
+	height: 600px;
+	width: 700px;
+	background:#9DD2EA;
+	margin:auto;
+	padding: 20px;
+	border-radius: 10px;
+	position: relative;
+
+}  
+#scorebox{
+	font-family:cursive, sans-serif;
+	background: yellow;
+	height: 20px;
+	width: 70px;
+	float: right;
+	padding: 20px;
+	border-radius: 10px; 
+}
+#correct{
+	font-family:cursive, sans-serif;
+	color: white;
+	position: absolute;
+	left:330px;
+	margin-top: 10px;
+	height:20px;
+	width: 50px;
+	padding: 10px;
+	background: green;
+	border-radius: 10px;
+	display: none;
+}
+#wrong{
+	font-family:cursive, sans-serif;
+	color: white;
+	position: absolute;
+	left:330px;
+	margin-top: 10px;
+	height:20px;
+	width: 60px;
+	padding: 10px;
+	background: red;
+	border-radius: 10px;
+	display: none;
+}
+#question{
+	width: 450px;
+	height: 150px;
+	margin-top:100px;
+	margin-left: 120px;
+	margin-right: 150px;
+	background: purple;
+	border-radius: 10px;
+	font-size:600%;
+	text-align:center;
+	font-family:cursive, sans-serif; 
+
+}
+#instruction{
+	width: 450px;
+	height: 50px;
+	background: black;
+	margin-top: 10px;
+	margin-left: 120px;
+	margin-right: 150px;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	font-family:cursive, sans-serif; 
+
+}
+
+#choice{
+	height: 100px;
+	width: 500px;
+	margin-top: 10px;
+	margin-left: 120px;
+	s
+}
+
+.box{
+	width: 75px;
+	height: 75px;
+	background-color: white;
+	float: left;
+	margin-right: 50px;
+	border-radius: 6px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 70px;
+	transition-property:height 2s, background 0s, color;
+}
+
+.box:hover,#start:hover{
+	background: purple;
+	color: white;
+	box-shadow: 0px 4px black;
+}
+
+#start{
+    width: 75px;
+	height: 20px;
+	background-color: white;
+	padding: 10px;
+	margin-left: 300px;
+	border-radius: 6px;
+	cursor: pointer;
+	text-align: center;
+	transition-property:height 2s, background 0s;
+}
+
+#timeremaining{
+	width: 150px;
+	padding: 10px;
+	background: green;
+	margin-left:270px; 
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 10px;
+	display: none;
+}
+#gameover{
+	height: 150px;
+	width: 500px;
+	background: linear-gradient(red,yellow);
+	font-size: 200%;
+	text-transform: uppercase;
+	position: absolute;
+	top:200px;
+	left: 120px;
+	text-align: center;
+	font-family:cursive, sans-serif;
+	z-index: 2;
+	border:3px solid black;
+	border-radius: 10px;
+	display: none;
+
+}
+
